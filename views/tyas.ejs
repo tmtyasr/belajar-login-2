@@ -1,0 +1,27 @@
+<!-- views/tyas.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyas Page</title>
+    <style>
+
+      p {
+        text-transform: capitalize;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to Tyas Page</h1>
+
+    <p>This is a protected page that requires authentication.</p>
+
+    <p>Hello <%= user.name %></p>
+
+    <p><a href="/">Back to Login</a></p>
+  </body>
+</html>
